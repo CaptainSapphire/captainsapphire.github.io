@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #292950;
+  /*alt for color :#EBF5EE*/
+  background-color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  border-bottom: solid 1px #457B9D;
+  background-color: #1D3557;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  /*border-radius: 0.2rem;*/
+  border: solid 1px #E63946;
+  text-align: center;
+  text-decoration: none;
+  color: #E63946;
+}
+
+nav a[aria-current='page'] {
+  color: #E63946;
+  background-color: #F1FAEE;
+}
+nav a:hover {
+  background: #457B9D;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+footer {
+  background-color: #1D3557;
+  /*alt for color: #EBF5EE*/
+  color: #E63946;
+  text-align: left;
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+}
+
+.logo {
+  border: solid 3px #A8DADC;
+  padding: 6px;
+}
+
+.home-big {
+  background-color:#457B9D;
+}
+
+/*color palette of choice: https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
