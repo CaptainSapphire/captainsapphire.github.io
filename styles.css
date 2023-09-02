@@ -4,10 +4,14 @@
 
 body {
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Raleway';
+  font-size: 19px;
   color: #292950;
   /*alt for color :#EBF5EE*/
   background-color: whitesmoke;
+}
+strong, h1 {
+  font-family: 'Lexend'
 }
 
 nav {
