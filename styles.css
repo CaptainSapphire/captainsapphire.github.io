@@ -55,23 +55,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-footer {
-  background-color: #1D3557;
-  /*alt for color: #EBF5EE*/
-  color: #E63946;
-  text-align: left;
-  position: absolute;
-  margin-bottom: 0;
-  width: 100%;
-  height: 4rem; 
-}
 
-#footer-image {
-  width: 40px;
-  height: 30px;
-  float: right;
-  padding-right: 2%;
-}
 
 .logo {
   border: solid 3px #A8DADC;
@@ -84,5 +68,34 @@ footer {
 #testimonials {
   text-align: left;
 }
+
+#footer-container {
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #1D3557;
+  color: #E63946;
+  position: absolute;
+  margin-bottom: 0;
+  width: 100%;
+  height: 4rem; 
+}
+
+footer address {
+  float: left;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
+#footer-image {
+  width: 40px;
+  height: 40px;
+  float: right;
+  padding-top: 2%;
+  padding-right: 2%;
+}
+
 
 /*color palette of choice: https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
