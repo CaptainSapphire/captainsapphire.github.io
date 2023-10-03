@@ -59,11 +59,21 @@ h1 {
   border: solid 3px #A8DADC;
   padding: 6px;
 }
-
+/*index, first div*/
 .home-big {
   background-color:#457B9D;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
+.blue_me {
+  float:right;
+}
+#text_left{
+  float: left;
+}
+/*end of index, first div*/
 #testimonials {
   text-align: left;
 }
