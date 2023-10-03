@@ -61,12 +61,12 @@ h1 {
 }
 /*index, first div*/
 .home-big-text {
+  font-size: 40px;
   background-color:#457B9D;
   align-items: center;
   justify-content: center;
   padding: 0.5px;
   text-align: center;
-  font-size: 40px;
 }
 .home-big {
   align-items: center;
@@ -81,7 +81,13 @@ h1 {
   float: right;
   opacity: 0.87;
   border: #1D3557 solid 3px;
+  border-radius: 10px;
 }
+#blue_me:hover {
+  transform: scale(1.005);
+  transition: transform .1s; 
+}
+
 .text_left {
   float: left;
   font-family: 'Lexend';
