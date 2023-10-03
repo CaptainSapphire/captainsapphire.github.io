@@ -60,19 +60,30 @@ h1 {
   padding: 6px;
 }
 /*index, first div*/
+.home-big-big {
+  background-color:#457B9D;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 .home-big {
   background-color:#457B9D;
   align-items: center;
   justify-content: center;
   display: flex;
+  padding: 10px;
 }
 
-.blue_me {
-  float:right;
+#blue_me {
+  float: right;
+  opacity: 0.9;
+  border: #457B9D solid 3px;
 }
-#text_left{
+.text_left {
   float: left;
+  font-family: 'Lexend';
 }
+
 /*end of index, first div*/
 #testimonials {
   text-align: left;
