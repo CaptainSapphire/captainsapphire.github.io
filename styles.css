@@ -55,8 +55,6 @@ h1 {
   font-size: 1.5rem;
 }
 
-
-
 .logo {
   border: solid 3px #A8DADC;
   padding: 6px;
@@ -65,6 +63,7 @@ h1 {
 .home-big {
   background-color:#457B9D;
 }
+
 #testimonials {
   text-align: left;
 }
