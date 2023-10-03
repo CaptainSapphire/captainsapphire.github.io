@@ -61,12 +61,12 @@ h1 {
 }
 /*index, first div*/
 .home-big-text {
-  font-size: 40px;
   background-color:#457B9D;
   align-items: center;
   justify-content: center;
   padding: 0.5px;
   text-align: center;
+  font-size: 2rem;
 }
 .home-big {
   align-items: center;
