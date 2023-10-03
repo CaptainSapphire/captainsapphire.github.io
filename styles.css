@@ -66,6 +66,7 @@ h1 {
   justify-content: center;
   padding: 0.5px;
   text-align: center;
+  font-size: 40px;
 }
 .home-big {
   align-items: center;
@@ -73,11 +74,12 @@ h1 {
   display: flex;
   padding: 0px 5px 10px 10px;
   background-color: #457B9D;
+  font-size: 25px;
 }
 
 #blue_me {
   float: right;
-  opacity: 0.9;
+  opacity: 0.86;
   border: #1D3557 solid 3px;
 }
 .text_left {
