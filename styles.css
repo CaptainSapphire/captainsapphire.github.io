@@ -81,7 +81,6 @@ h1 {
   float: right;
   opacity: 0.87;
   border: #1D3557 solid 3px;
-  border-radius: 10px;
 }
 #blue_me:hover {
   transform: scale(1.005);
