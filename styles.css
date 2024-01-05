@@ -9,6 +9,10 @@ body {
   color: #292950;
   /*alt for color :#EBF5EE*/
   background-color: whitesmoke;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 strong, h1 {
   font-family: 'Lexend'
@@ -105,25 +109,23 @@ h1 {
 footer {
   background-color: #1D3557;
   color: #E63946;
-  position: absolute;
-  margin-bottom: 0;
   width: 100%;
-  height: 4rem; 
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer address {
-  float: left;
-  padding-top: 2%;
-  padding-right: 2%;
+  padding-left: 2%;
 }
 
 #footer-image {
   width: 40px;
   height: 40px;
-  float: right;
-  padding-top: 2%;
   padding-right: 2%;
 }
-
-
+#content {
+  flex: 1;
+}
 /*color palette of choice: https://coolors.co/palette/e63946-f1faee-a8dadc-457b9d-1d3557 */
