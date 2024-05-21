@@ -5,6 +5,15 @@ This project is my personal website designated to serve various purposes. This i
 
 Please do not fork this code, since I believe this is a public project but I'm just using the free version of StackBlitz.
 
+
+To-Do list:
+- change the URL in Github of the website 
+- 
+
+
+
+
+
 Helpful links for me:
 https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html
 
