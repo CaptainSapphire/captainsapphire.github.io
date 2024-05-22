@@ -147,7 +147,14 @@ footer address {
   padding-left: 2%;
 }
 
-#social-logo {
+.social-logo {
   width: 40px;
   height: 40px;
+}
+
+.socials-container {
+  display: grid;
+  align-items: center;
+  justify-content:center;
+  grid-template-columns: 80px 1fr 1fr;
 }
