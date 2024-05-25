@@ -22,3 +22,8 @@ explain later
 
 https://en.wikipedia.org/wiki/List_of_social_platforms_with_at_least_100_million_active_users
 
+
+
+
+ideas
+a dark mode?
