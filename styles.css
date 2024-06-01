@@ -159,13 +159,14 @@ footer address {
   padding-left: 5px;
 }
 
-
 .socials-container {
   display: flex;
   /*position: relative;*/
   align-items: center;
   justify-content: center; 
   padding: 5px 5px 5px 5px;
+  background-color: #1D3557;
+  color: white;
 }
 
 .scbig-container {
