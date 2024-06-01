@@ -148,14 +148,20 @@ footer address {
 }
 
 .social-logo {
-  width: 30px;
+  width: 35px;
   height: 30px;
+  padding-left: 5px;
 }
 
 .socials-container {
-  display: grid;
-  position: relative;
+  display: flex;
+  /*position: relative;*/
   align-items: center;
-  justify-content:center;
-  grid-template-columns: 80px 1fr 1fr;
+  justify-content: center; 
+}
+
+.scbig-container {
+  display: grid;
+  grid-template-columns: 70px 1fr 1fr; 
+  grid-template-rows: 45px 1fr 1fr;
 }
