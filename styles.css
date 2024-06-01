@@ -153,6 +153,13 @@ footer address {
   padding-left: 5px;
 }
 
+.social-logo-alt {
+  height: 29px;
+  width: 43px;
+  padding-left: 5px;
+}
+
+
 .socials-container {
   display: flex;
   /*position: relative;*/
