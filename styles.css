@@ -165,6 +165,7 @@ footer address {
   /*position: relative;*/
   align-items: center;
   justify-content: center; 
+  padding: 5px 5px 5px 5px;
 }
 
 .scbig-container {
@@ -173,3 +174,7 @@ footer address {
   grid-template-rows: 5px 1fr 1fr;
 }
 
+.sc-category-container {
+  display: inline-flex;
+
+}
