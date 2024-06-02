@@ -173,6 +173,7 @@ footer address {
   grid-template-rows: 5px 1fr 1fr;
   background-color: #1D3557;
   color: white;
+  border-left: 4px solid #457B9D !important;
 }
 
 .sc-category-container {
