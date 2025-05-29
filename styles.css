@@ -54,6 +54,11 @@ nav a[aria-current='page'] {
   background-color: #0598ce;
 }
 
+.main-name {
+  font-size: 100px;
+  font-family: 'Abril';
+}
+
 /* Main content */
 main {
   flex: 1;
