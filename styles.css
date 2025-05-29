@@ -39,14 +39,9 @@ nav a {
   color: #001a33;
   border: 1px solid #001a33;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.75rem; 
   font-weight: 550;
   transition: all 0.2s ease;
-  display: flex;
-  gap: 0.2rem;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 nav a:hover {
