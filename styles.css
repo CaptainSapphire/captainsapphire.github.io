@@ -57,11 +57,12 @@ nav a[aria-current='page'] {
   background-color: #0598ce;
 }
 
-.nav-name {
-  font-family: 'Courier New', Courier, monospace;
+#nav-name {
   text-align: left;
-  background-color: #ffff;
+  background-color: #ffffff;
   font-weight: 150;
+  padding: 0.5rem 1rem;
+  display: inline-block; /* or block */
 }
 
 .main-name {
