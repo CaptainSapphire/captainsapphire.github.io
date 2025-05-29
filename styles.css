@@ -111,8 +111,8 @@ main {
 
 /* Footer */
 footer, #footer-container {
-  background-color: #1D3557;
-  color: #E63946;
+  background-color: #113768;
+  color: #0598ce;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,7 +147,7 @@ footer address {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  background-color: #1D3557;
+  background-color: #113768;
   color: white;
   padding: 1rem;
   border-left: 4px solid #457B9D;
