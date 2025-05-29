@@ -15,7 +15,7 @@ body {
 }
 
 strong, h1, .text_left {
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Georgia', sans-serif;
 }
 
 h1 {
@@ -33,6 +33,10 @@ nav {
   background-color: #113768;
   padding: 1rem 4rem;
   border-bottom: 2px solid #457B9D;
+}
+
+nav a:first-of-type {
+  margin-left: auto; /* Pushes all the links to the right */
 }
 
 nav a {
@@ -57,7 +61,7 @@ nav a[aria-current='page'] {
   font-family: 'Courier New', Courier, monospace;
   text-align: left;
   background-color: #ffff;
-  
+  font-weight: 550;
 }
 
 .main-name {
