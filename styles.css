@@ -41,11 +41,11 @@ nav a:first-of-type {
 
 nav a {
   color: #001a33;
-  border: 1px solid #001a33;
   text-decoration: none;
   padding: 0.5rem 0.75rem; 
   font-weight: 550;
   transition: all 0.2s ease;
+  border-bottom: 2px solid #001a33;
 }
 
 nav a:hover {
