@@ -31,28 +31,27 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
-  background-color: #1D3557;
+  background-color: #113768;
   padding: 1rem;
   border-bottom: 2px solid #457B9D;
 }
 
 nav a {
-  color: #E63946;
-  border: 1px solid #E63946;
+  color: #001a33;
+  border: 1px solid #001a33;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
   font-weight: 600;
   transition: all 0.2s ease;
 }
 
 nav a:hover {
-  background-color: #457B9D;
+  background-color: #0598ce;
   color: #fff;
 }
 
 nav a[aria-current='page'] {
-  background-color: #F1FAEE;
+  background-color: #0598ce;
 }
 
 /* Main content */
@@ -63,7 +62,7 @@ main {
 
 /* Home page hero */
 .home-big-text {
-  background-color: #457B9D;
+  background-color: #0598ce;
   text-align: center;
   color: white;
   padding: 2rem 1rem;
@@ -76,7 +75,7 @@ main {
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
-  background-color: #457B9D;
+  background-color: #0598ce;
   color: white;
   font-size: 1.2rem;
 }
