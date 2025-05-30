@@ -96,7 +96,7 @@ main {
   font-size: 1.2rem;
 }
 
-#blue_me {
+#picture_me {
   float: right;
   max-width: 40%;
   border: 3px solid #1D3557;
@@ -106,7 +106,7 @@ main {
   align-self: left;
 }
 
-#blue_me:hover {
+#picture_me:hover {
   transform: scale(1.02);
 }
 
