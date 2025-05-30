@@ -103,10 +103,15 @@ main {
   border-radius: 8px;
   opacity: 0.87;
   transition: transform 0.2s ease;
+  align-self: left;
 }
 
 #blue_me:hover {
   transform: scale(1.02);
+}
+
+.text-right {
+  float:right;
 }
 
 .text_left {
