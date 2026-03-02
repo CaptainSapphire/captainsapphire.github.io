@@ -30,7 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #113768;
+  background-image: linear-gradient(to right, #8bb6d9 , #eae8c2);
   padding: 1rem 4rem;
   border-bottom: 2px solid #457B9D;
 }
@@ -45,16 +45,16 @@ nav a {
   padding: 0.5rem 0.75rem; 
   font-weight: 550;
   transition: all 0.2s ease;
-  border-bottom: 2px solid #001a33;
+  border-bottom: 2px solid #457B9D;
 }
 
 nav a:hover {
-  background-color: #0598ce;
+  background-color: #7492b4;
   color: #fff;
 }
 
 nav a[aria-current='page'] {
-  background-color: #0598ce;
+  background-color: #7492b4;
 }
 
 #nav-name {
@@ -73,15 +73,15 @@ nav a[aria-current='page'] {
 /* Main content */
 main {
   flex: 1;
-  padding: 2rem;
+  padding: 10rem;
 }
 
 /* Home page */
 .home-big-text {
-  background-color: #0598ce;
+  background-color: #8fbadd;
   text-align: center;
   color: white;
-  padding: 2rem 1rem;
+  padding: 5rem 1rem;
   font-size: 2rem;
 }
 
@@ -91,32 +91,33 @@ main {
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
-  background-color: #0598ce;
+  background-color: #c3e3d4;
   color: white;
-  font-size: 1.2rem;
+  font-size: 30px;
 }
 
 #picture_me {
   float: right;
   max-width: 40%;
-  border: 3px solid #1D3557;
+  border: 3px solid #8fbadd;
   border-radius: 8px;
   opacity: 0.87;
   transition: transform 0.2s ease;
   align-self: left;
 }
 
-#picture_me:hover {
-  transform: scale(1.02);
-}
 
 .text-right {
   float:right;
+  direction: rtl;
+  text-align: right;
 }
 
 .text_left {
   float: left;
   font-size: 1.1rem;
+  direction: rtl;
+  text-align: left;
 }
 
 
@@ -158,11 +159,12 @@ footer address {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  background-color: #113768;
-  color: white;
+  background-color: #91b9dc;
+  color: #001a33;
   padding: 1rem;
   border-left: 4px solid #457B9D;
   border-radius: 6px;
+  padding-top: 0.5rem;
 }
 
 .sc-category-container {
@@ -176,11 +178,6 @@ footer address {
   .home-big {
     flex-direction: column;
     text-align: center;
-  }
-
-  #blue_me {
-    max-width: 90%;
-    margin-top: 1rem;
   }
 
   nav a {
@@ -203,3 +200,4 @@ footer address {
     justify-content: center;
   }
 }
+

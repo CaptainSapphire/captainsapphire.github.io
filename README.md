@@ -7,8 +7,8 @@ This project is my personal website designated to serve various purposes. This i
 Please do not fork this code, since I believe this is a public but I'm just using the free IDE.
 
 To-Do list:
-- change the URL in Github of the website 
-- incorporate Bootstrap
+- incorporate Bootstrap / make mobile friendly
+- fix custom cursor
 - update each page
 
 
@@ -21,9 +21,3 @@ https://www.google.com/search?q=hiring+web+designer&rlz=1CATRYQ_enUS1053&oq=hiri
 explain later
 
 https://en.wikipedia.org/wiki/List_of_social_platforms_with_at_least_100_million_active_users
-
-
-
-
-ideas
-a dark mode?
