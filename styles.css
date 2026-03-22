@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* fix later ^^^  */
+
+
 body {
   margin: 0;
   padding: 0;
