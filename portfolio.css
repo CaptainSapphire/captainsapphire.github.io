@@ -1,0 +1,236 @@
+/* ---- Quick Links (Work Experience & Certifications) ---- */
+.top-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.top-links h4 {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.top-links h4 a {
+  display: inline-block;
+  color: #1a5fa8;
+  text-decoration: none;
+  padding: 0.45rem 1rem;
+  border: 1px solid #b8cfe0;
+  border-radius: 20px;
+  background: #ffffff;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.top-links h4 a:hover {
+  background: #deeaf4;
+  color: #00305a;
+  border-color: #457B9D;
+}
+
+
+/* ---- Dropdown Logic ---- */
+.dropdown-content {
+  display: none;
+}
+
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+/* ---- Base ---- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+  color: #001a33;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+strong, h1 {
+  font-family: 'Georgia', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ---- Navigation ---- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #8bb6d9, #eae8c2);
+  padding: 1rem 4rem;
+  border-bottom: 2px solid #457B9D;
+}
+
+nav a:first-of-type {
+  margin-left: auto;
+}
+
+nav a {
+  color: #001a33;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  font-weight: 550;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid #457B9D;
+}
+
+nav a:hover {
+  background-color: #7492b4;
+  color: #fff;
+}
+
+nav a[aria-current='page'] {
+  background-color: #7492b4;
+}
+
+#nav-name {
+  text-align: left;
+  background-color: #ffffff;
+  font-weight: 150;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+/* ---- Main ---- */
+main {
+  flex: 1;
+  padding: 2.5rem 4rem;
+}
+
+/* ---- Dropdown Container ---- */
+.dropdown {
+  border: 1px solid #b8cfe0;
+  border-radius: 6px;
+  margin-bottom: 0.6rem;
+  background: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+/* ---- Dropdown Button ---- */
+.dropbtn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.2rem;
+  background: #deeaf4;
+  border: none;
+  border-bottom: 1px solid #b8cfe0;
+  color: #001a33;
+  font-family: 'Georgia', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dropbtn::after {
+  content: "›";
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #457B9D;
+  display: inline-block;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.dropbtn:hover {
+  background: #c8dff0;
+}
+
+.dropdown.open .dropbtn {
+  background: #c8dff0;
+  color: #00305a;
+}
+
+.dropdown.open .dropbtn::after {
+  transform: rotate(90deg);
+}
+
+/* ---- Dropdown Content ---- */
+.dropdown-content {
+  padding: 1rem 1.2rem 1.2rem;
+  background: #f9fbfd;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #1a5fa8;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.dropdown-content a:first-child {
+  margin-top: 0;
+}
+
+.dropdown-content a:hover {
+  color: #003d7a;
+  text-decoration: underline;
+}
+
+.dropdown-content p {
+  color: #4a5f75;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid #d0dce8;
+}
+
+.dropdown-content p:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* ---- Footer ---- */
+footer, #footer-container {
+  background-color: #113768;
+  color: #0598ce;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 4rem;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer address {
+  font-style: normal;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  main {
+    padding: 2rem 1.5rem;
+  }
+
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  footer, #footer-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    height: auto;
+    text-align: center;
+  }
+}
