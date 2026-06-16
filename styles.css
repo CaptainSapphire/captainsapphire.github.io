@@ -86,7 +86,7 @@ main {
 }
 
 /* Home page */
-.home-big-text {
+#home-big-text {
   text-align: center;
   color: white;
   padding: 5rem 1rem;
@@ -99,18 +99,18 @@ main {
   gap: 1rem;
   padding: 1rem;
   color: #001a33;
-  font-size: 110%;
+  font-size: 120%;
 }
 
-#picture_me {
+ #picture_me {
   float: right;
   max-width: 40%;
   border: 3px solid #8fbadd;
-  border-radius: 8px;
-  opacity: 0.87;
+  border-radius: 10%;
+  opacity: 0.90;
   transition: transform 0.2s ease;
   align-self: left;
-}
+} 
 
 
 .text-right {
@@ -183,7 +183,8 @@ footer address {
 @media (max-width: 768px) {
   .home-big {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    float: right;
   }
 
   nav a {
