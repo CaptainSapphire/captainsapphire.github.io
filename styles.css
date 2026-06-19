@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
   font-size: 18px;
   color: #001a33;
   background-image: linear-gradient(to right, #8bb6d9 , #eae8c2);
@@ -53,6 +53,7 @@ nav a {
   font-weight: 550;
   transition: all 0.2s ease;
   border-bottom: 2px solid #457B9D;
+  font-family: 'Georgia', serif;
 }
 
 nav a:hover {
