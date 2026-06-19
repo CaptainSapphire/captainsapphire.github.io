@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   color: #001a33;
   background-image: linear-gradient(to right, #8bb6d9 , #eae8c2);
@@ -22,7 +22,7 @@ body {
 }
 
 strong, h1, .text_left {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 h1 {
@@ -208,3 +208,102 @@ footer address {
   }
 }
 
+
+/*  */
+/*  */
+/* Card on the About Me */
+/* Section wrapper layout - Dark theme inspired by priyaharry.com */
+.about-section {
+  padding: 80px 20px;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Two-column master container matching image_e77c75.jpg split */
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr; 
+  gap: 60px;
+  max-width: 1140px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* Left Image styling */
+.about-image img {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 24px; 
+  display: block;
+  margin: 0 auto;
+  border: 1.5px solid rgba(0, 242, 254, 0.2); /* Soft teal border glow */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Right Content text column */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
+}
+
+.intro-text {
+  line-height: 1.7;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Optimized Grid for the Squares */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px; 
+  margin-top: 32px; 
+}
+
+.card {
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid rgba(0, 242, 254, 0.25); /* Cyan / Teal border tint */
+  border-radius: 16px;
+  padding: 24px 20px;
+  background-color: #8bb6d9; 
+  backdrop-filter: blur(8px); /* Modern glassmorphism touch */
+  box-sizing: border-box;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              border-color 0.3s ease, 
+              box-shadow 0.3s ease;
+}
+
+.card-title {
+  color: #457B9D; 
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  color: #e2e8f0; 
+  font-size: 2rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Interactive Hover Feedback */
+.card:hover {
+  transform: translateY(-4px);
+  border-color: #eae8c2; 
+  box-shadow: 0 12px 24px rgba(56, 239, 175, 0.12); 
+}
+
+/* Responsive adjustments for smaller windows/mobile viewports */
+@media (max-width: 968px) {
+  .about-container {
+    grid-template-columns: 1fr; 
+    gap: 40px;
+  }
+  
+  .cards-grid {
+    grid-template-columns: 1fr; /* Stacks layout vertically perfectly on phones */
+  }
+}
