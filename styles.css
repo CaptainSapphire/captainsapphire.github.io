@@ -312,48 +312,53 @@ footer address {
 
 
 /* CARD STACK */
-/* Container to establish a positioning context */
+/* Container to stack them vertically */
 .photo-stack {
-  position: relative;
-  width: 220px;  /* Adjust based on your layout */
-  height: 280px; /* Adjust based on your layout */
+  display: flex;
+  flex-direction: column; /* Aligns them vertically top-to-bottom */
+  align-items: center;
+  gap: -60px;            /* Pulls them vertically closer to overlap */
   margin: 20px auto;
+  width: 100%;           /* Uses the full width of your left column */
+  height: auto;
 }
 
 /* Base style for each "printed" photo */
 .photo {
-  position: absolute;
-  width: 100%;
+  position: relative;
+  width: 200px;          /* Increased size so they aren't too small */
   height: auto;
   background-color: white;
-  padding: 10px 10px 30px 10px; /* Thicker padding at the bottom like a Polaroid */
+  padding: 12px 12px 30px 12px; /* Authentic Polaroid frame */
   border: 1px solid #e0e0e0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, z-index 0.3s ease;
   object-fit: cover;
 }
 
-/* Bottom photo: rotated slightly to the left */
+/* Top photo: Tilted slightly left, overlapping the middle one below it */
 .photo-bottom {
-  transform: rotate(-8deg);
+  transform: rotate(-5deg);
+  margin-bottom: -50px;  /* Pulls the next image up over it */
   z-index: 1;
 }
 
-/* Middle photo: rotated slightly to the right */
+/* Middle photo: Tilted slightly right */
 .photo-middle {
   transform: rotate(4deg);
+  margin-bottom: -50px;  /* Pulls the next image up over it */
   z-index: 2;
 }
 
-/* Top photo: mostly straight, sits on top */
+/* Bottom photo: Tilted slightly left, sits on the very top of the pile */
 .photo-top {
-  transform: rotate(-2deg);
+  transform: rotate(-3deg);
   z-index: 3;
 }
 
-/* Optional: Bring a photo to the front when hovered */
+/* Hover effect to pop a photo out */
 .photo:hover {
-  transform: rotate(0deg) scale(1.05);
-  z-index: 10;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1) rotate(0deg);
+  z-index: 10;           /* Brings it straight to the front */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
 }
