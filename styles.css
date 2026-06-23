@@ -308,3 +308,52 @@ footer address {
     grid-template-columns: 1fr; /* Stacks layout vertically perfectly on phones */
   }
 }
+
+
+
+/* CARD STACK */
+/* Container to establish a positioning context */
+.photo-stack {
+  position: relative;
+  width: 220px;  /* Adjust based on your layout */
+  height: 280px; /* Adjust based on your layout */
+  margin: 20px auto;
+}
+
+/* Base style for each "printed" photo */
+.photo {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 10px 10px 30px 10px; /* Thicker padding at the bottom like a Polaroid */
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  object-fit: cover;
+}
+
+/* Bottom photo: rotated slightly to the left */
+.photo-bottom {
+  transform: rotate(-8deg);
+  z-index: 1;
+}
+
+/* Middle photo: rotated slightly to the right */
+.photo-middle {
+  transform: rotate(4deg);
+  z-index: 2;
+}
+
+/* Top photo: mostly straight, sits on top */
+.photo-top {
+  transform: rotate(-2deg);
+  z-index: 3;
+}
+
+/* Optional: Bring a photo to the front when hovered */
+.photo:hover {
+  transform: rotate(0deg) scale(1.05);
+  z-index: 10;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
